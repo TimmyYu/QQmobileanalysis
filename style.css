@@ -1,0 +1,205 @@
+	body, input, button, select, input, textarea {
+		font-family: tahoma, arial, sans-sarif;
+		font-size: 12px;
+	}
+	body, input, button, select, input, textarea {
+		font-family: tahoma, arial, sans-sarif;
+		font-size: 12px;
+	}
+	#tend h5{
+	   padding-bottom: 6px;
+	   padding-top: 10px;
+	   margin: 0 8px;
+	   font-size: 14px;
+	   font-weight: 700;
+	   color: #333333;
+	   border-bottom: 1px solid #CCC;
+	}
+	#tend .start{
+	   padding-right:10px;
+	   width: 130px;
+	   height: 158px;
+	   display: inline-block;
+	   z-index: 3;
+	   background: url(img/bg_path_summary.png) 0 0 no-repeat;
+	   text-shadow: 1px 1px 0 #FFF;
+	   font-size:13px;
+	   float:left;
+	   margin-top:100px;
+	}
+	#tend .start ul li{
+	   list-style-type:none;
+	   text-align: left;
+	   height:16px;
+
+	}
+	#tend .bg_left{
+	   width: 19px;
+	   height: 44px;
+	   float: left;
+	   background: #c9caca;
+	}
+	#tend .column li{
+	   width: 174px;
+	   height: 40px;
+	   color: #444444;
+	   height: 38px;
+
+	}
+
+        #tend  li.current .bg_right{
+         	position:relative;
+        	background: #cdd0d1 url(img/bg_path.png) 0 -80px no-repeat;
+                height:42px;
+                width:25px;
+         }
+        #tend ul li .bg_right{
+                height:42px;
+                width:20px;
+        }
+	#tend .column li h6{
+	   line-height: 20px;
+	   font-size: 14px;
+	   font-weight: bold;
+	   margin:0;
+           margin: 0 8px;
+           overflow: hidden;
+           white-space: nowrap;
+           text-overflow: ellipsis;
+	}
+       #tend .column{
+           margin:0;
+           padding:0;
+       }
+       #tend .column ul{
+           padding:0;
+           margin:0;
+       }
+       #tend .column ul li{
+           margin:0;
+           padding:0;
+       }
+	#tend  .box {
+	   width:130px;
+	   background: #9bc8e3;
+	   height:40px;
+	   margin:0;
+	}
+	#tend .column ul li{
+	   margin-bottom: 2px;
+	}
+	li.first .bg_left{
+	   background: #cdd0d1 url(img/bg_path.png) 0 0 no-repeat;
+	}
+	li{
+	   list-style-type:none;
+	   text-align: left;
+	   height:16px;
+	}
+	#tend .start ul{
+	   padding-left: 10px;
+	}
+	#tend .main{
+	   overflow: auto;
+	   padding: 10px;
+	   border-radius: 0;
+	   box-shadow: inset 0 0 15px rgba(0, 0, 0, .3);
+	   border: 1px solid #e1e1e1;
+	   background: #FFF;
+	   font-size: 12px;
+	}
+        #tend .column li.description{
+                height:20px;
+                line-height:  27px;
+                padding-bottom: 10px;   
+                text-align: center;
+              }
+	#tend .column{
+	   float:left;
+	}
+	#tend .column  ul li  div{
+	   float:left;
+	}
+        #tend .column  ul li {
+	   clear:both;
+	}
+        #tend .column  ul li .box:hover {
+                background-color: #94D9FF;
+                cursor: pointer;
+            }
+	#tend .box  p{
+		margin:0;
+		padding-left:8px;
+	}
+        #tend li.first  div.bg_left{
+                background: #cdd0d1 url(img/bg_path.png) 0 0 no-repeat;
+                background-color: #cdd0d1;
+                height:42px;
+            }
+        #tend .column li.last {
+                height: 27px;
+                overflow: hidden;
+                cursor: default;
+                text-shadow: 0 1px 0 #FFF;
+            }
+        #tend .column li.last .box{
+                background: #dcdcdc;
+            }
+        #tend .column li.last  h6{
+                float: left;
+                line-height: 27px;
+            }
+        #tend .column li.last  p{
+                line-height: 27px;
+        }
+        #tend .column_2  .box{
+                background-color:#b8e0f8;
+        }
+        #tend .column_3 .box{
+               background-color: #d2edfe;
+        }
+        #tend .column_4 .box{
+               background-color: #e6effe;
+        }
+        #tend .bg_a,#tend .bg_b{
+		width: 5px;
+		height: 5px;
+		position: absolute;
+		right: 0;
+		z-index: 2;
+		font-size: 0;
+		overflow: hidden;
+        }
+        #tend .bg_a{
+            	top: -5px;
+		background: url(img/bg_path.png) right -5px no-repeat;
+        }
+        #tend .bg_b{
+            	bottom: -3px;
+		background: url(img/bg_path.png) right 0 no-repeat;
+        }
+        #tend li.last .bg_left{
+            	background: #cdd0d1 url(img/bg_path.png) -19px 0 no-repeat;
+        }
+            .mod_pathTips{
+            	display: none;
+            	width: 180px;
+		position: absolute;
+		left: 400px;
+		top: 500px;
+		z-index: 100;
+		padding: 10px;
+		border: 1px solid #666;
+		background: #fff;
+		background: rgba(255,255,255,.9);
+            }
+            .mod_pathTips dt {
+		float: left;
+		clear: right;
+		color: #666;
+	}
+	.mod_pathTips dt {
+		float: left;
+		clear: right;
+		color: #666;
+	}
